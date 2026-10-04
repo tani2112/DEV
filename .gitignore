@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+backend/venv/
+venv/
+.venv/
+
+# Build artifacts
+dist/
+dist-ssr/
+*.local
+
+# Python cache & SQLite
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+*.db
+backend/recipes.db
+recipes.db
+
+# Environment variables
+.env
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
